@@ -14,7 +14,7 @@ public class Gato extends Mascota {
 
     @Override
     public void mostrarInformacion() {
-        System.out.println("Gato - Código: " + getCodigo() + ", Nombre: " + getNombre() + 
-                           ", Pedigree: " + pedigree + ", Requiere Supervisión: " + requiereSupervision()+",edad(años): "+getEdad()+",peso(kg): "+ getPeso()+ ",dias en el hotel: "+getDias());
+        System.out.println("Gato - Codigo: " + getCodigo() + ", Nombre: " + getNombre() + 
+                           ", Pedigree: " + pedigree + ", Requiere Supervision: " + requiereSupervision()+",edad(años): "+getEdad()+",peso(kg): "+ getPeso()+ ",dias en el hotel: "+getDias());
     }
 }

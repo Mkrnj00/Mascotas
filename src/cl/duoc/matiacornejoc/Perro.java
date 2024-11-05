@@ -11,6 +11,6 @@ public class Perro extends Mascota {
 
     @Override
     public void mostrarInformacion() {
-        System.out.println("Perro Código: " + getCodigo() + ", Requiere Supervisión: " + requiereSupervision() + ", Nombre: " + getNombre() + ", Ejercicio Diario: " + ejercicioDiario +",edad(años): "+getEdad()+",peso(kg): "+ getPeso()+ ",dias en el hotel: "+getDias());
+        System.out.println("Perro Codigo: " + getCodigo() + ", Requiere Supervision: " + requiereSupervision() + ", Nombre: " + getNombre() + ", Ejercicio Diario: " + ejercicioDiario +",edad(años): "+getEdad()+",peso(kg): "+ getPeso()+ ",dias en el hotel: "+getDias());
     }
 }

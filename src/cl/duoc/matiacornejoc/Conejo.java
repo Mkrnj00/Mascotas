@@ -15,7 +15,7 @@ public class Conejo extends Mascota {
 
     @Override
     public void mostrarInformacion() {
-        System.out.println("Conejo - Código: " + getCodigo() + ", Nombre: " + getNombre() +
-                           ", Dieta: " + dieta + ", Requiere Supervisión: " + requiereSupervision()+",edad(años): "+getEdad()+",peso(kg): "+ getPeso()+ ",dias en el hotel: "+getDias());
+        System.out.println("Conejo - Codigo: " + getCodigo() + ", Nombre: " + getNombre() +
+                           ", Dieta: " + dieta + ", Requiere Supervision: " + requiereSupervision()+",edad(años): "+getEdad()+",peso(kg): "+ getPeso()+ ",dias en el hotel: "+getDias());
     }
 }
